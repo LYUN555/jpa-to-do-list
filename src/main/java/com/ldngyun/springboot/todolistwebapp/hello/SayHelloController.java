@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class SayHelloController {
 	
-	// http://localhost:8080/say-hello
+	// http://localhost:8080/say-hello-jsp
 	@RequestMapping("say-hello-jsp")
 	public String sayHello() {
 		return "sayHello";
