@@ -6,12 +6,14 @@
 <title>Login Page</title>
 </head>
 <body>
-	Welcom to the login Page!
-	<pre>${msg}</pre>
-	<form method="post">
-		Name: <input type="text" name = "name">
-		Password: <input type="password" name = "password">
-		<input type="submit">
-	</form>
+	<div class="container">
+		<h1>Login</h1>
+		<pre>${msg}</pre>
+		<form method="post">
+			Name: <input type="text" name = "name">
+			Password: <input type="password" name = "password">
+			<input type="submit">
+		</form>
+	</div>
 </body>
 </html>
