@@ -15,7 +15,7 @@ public class LoginController {
 	@Autowired
 	private AuthenticationService authenticationService;
 	
-	// http://localhost:8080/login?name=Ranga
+	// http://localhost:8080/login?name=lyun
 	@RequestMapping(value="/login",method = RequestMethod.GET) // get 방식
 	public String loginPage() {
 		
